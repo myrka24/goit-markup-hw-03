@@ -1,0 +1,239 @@
+:root {
+  --header-color: #2e2f42;
+  --text-color: #434455;
+  --brand-color: #4d5ae5;
+  --active-menu-color: #404bbf;
+  --white-color: #ffffff;
+  --footer-text-color: #f4f4fd;
+  --hero-background-color: #2e2f42;
+  --portfoliobtn-background-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  font-style: normal;
+  background-color: #ffffff;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--header-color);
+}
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*TODO ------------------ HEADER---------------- */
+
+.hero {
+  background-color: var(--hero-background-color);
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+
+.header-logo-brand {
+  color: var(--header-color);
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+
+.header-menu-link:is(:hover, :focus, :active) {
+  color: var(--active-menu-color);
+}
+
+.header-menu-link::after {
+  background: #404bbf;
+}
+
+.header-contact {
+  font-style: normal;
+}
+
+.header-contact-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.header-contact-link:is(:hover, :focus, :active) {
+  color: var(--active-menu-color);
+}
+
+/*? ------------------ HERO---------------- */
+
+.hero {
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-btn:is(:hover, :focus) {
+  background-color: #404bbf;
+}
+
+/* ------------------ BENEFITS---------------- */
+
+.benefits {
+}
+.benefits-list {
+}
+.benefits-list-item {
+}
+.benefits-list-title {
+}
+.benefits-list-text {
+}
+
+/*! ------------------ WHAT ARE WE DOING---------------- */
+
+.whatdoing {
+}
+.whatdoing-title {
+}
+.whatdoing-list {
+}
+.list {
+}
+.whatdoing-list-item {
+}
+
+/*& ------------------ OUR TEAM---------------- */
+
+.ourteam {
+  background-color: #f4f4fd;
+}
+.ourteam-title {
+}
+.ourteam-title-list {
+}
+.ourteam-title-item {
+  background-color: #ffffff;
+}
+.ourteam-title-name {
+  text-align: center;
+}
+.ourteam-title-role {
+  text-align: center;
+}
+
+/*& ------------------ FOOTER---------------- */
+
+.footer {
+  background-color: var(--hero-background-color);
+}
+.footer-logo-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+.footer-logo-brand {
+  color: var(--footer-text-color);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color);
+}
+
+/*TODO ------------------ PORTFOLIO-PAGE---------------- */
+
+.portfolio-menu {
+}
+.portfolio-menu-list {
+}
+.portfolio-menu-item {
+}
+
+.portfolio-menu-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--brand-color);
+  background-color: var(--portfoliobtn-background-color);
+  cursor: pointer;
+}
+
+.portfolio-menu-btn:is(:hover, :focus) {
+  color: var(--white-color);
+  background-color: #404bbf;
+}
+
+.portfolio-img-list {
+}
+.portfolio-img-item {
+}
+.portfolio-img-link {
+}
+.portfolio-img-title {
+}
+.portfolio-img-text {
+}
