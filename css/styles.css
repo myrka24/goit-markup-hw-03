@@ -42,6 +42,10 @@ ul {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -86,6 +90,7 @@ ul {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -121,6 +126,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--header-color);
+  padding: 24px 0;
 }
 
 .header-menu-link:is(:hover, :focus, :active) {
@@ -157,10 +163,11 @@ ul {
 
 .hero {
   background-color: var(--hero-background-color);
+  padding: 188px 0;
 }
 
 .hero-container {
-  padding: 188px 0;
+  
 }
 .hero-title {
   font-weight: 700;
@@ -191,6 +198,7 @@ ul {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
+  min-width: 169px;
 }
 
 .hero-btn:is(:hover, :focus) {
@@ -240,13 +248,12 @@ ul {
 
 .ourteam {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .ourteam-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 72px;
 }
 .ourteam-title-list {
   display: flex;
@@ -260,8 +267,11 @@ ul {
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 32px;
 }
+
+.ourteam-employee-wrap{
+padding: 32px 16px;
+}
 .ourteam-title-name {
-  margin-top: 32px;
   text-align: center;
   margin-bottom: 8px;
 }
@@ -285,9 +295,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-container-logo {
-  margin-bottom: 16px;
 }
 .footer-logo-brand {
   color: var(--footer-text-color);
@@ -318,15 +329,16 @@ ul {
 }
 
 .portfolio-menu {
+  padding-top: 96px; 
+  padding-bottom: 120px;
 }
 .portfolio-container {
-  padding-top: 96px;
-  padding-bottom: 120px;
 }
 .portfolio-menu-list {
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 .portfolio-menu-item {
   width: calc(100% - 96px) / 5);
@@ -357,15 +369,13 @@ border-radius: 4px;
 .portfolio-menu-btn:is(:hover, :focus) {
   color: var(--white-color);
   background-color: #404bbf;
-}
-.portfolio-img-wrap{
-padding-top: 72px;
+  border: 1px solid transparent;
 }
 
 .portfolio-img-list {
   display: flex;
-  gap: 24px;
   flex-wrap: wrap;
+  column-gap: 24px;
   row-gap: 48px;
 }
 
