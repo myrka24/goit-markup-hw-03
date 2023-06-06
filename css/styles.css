@@ -378,11 +378,11 @@ border-radius: 4px;
   row-gap: 48px;
 }
 
-.portfolio-row-one{
-  width: calc((100% - 48px)/3);
+.portfolio-img-item:nth-last-child(1n + 7) {
+width: calc((100% - 48px)/3);
 }
 
-.portfolio-row-three{
+.portfolio-img-item:nth-child(1n + 7){
 margin-bottom: 0;
 }
 .portfolio-img-item {
