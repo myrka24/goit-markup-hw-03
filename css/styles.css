@@ -298,8 +298,7 @@ padding: 32px 16px;
   display: inline-block;
   margin-bottom: 16px;
 }
-.footer-container-logo {
-}
+
 .footer-logo-brand {
   color: var(--footer-text-color);
   max-width: 264px;
